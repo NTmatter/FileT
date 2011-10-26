@@ -1,0 +1,14 @@
+FileT - File Transfer with constraints
+
+# Overview
+FileT provides centralized secure file exchange between restricted sets of non-technical users. Files are transferred over standard encrypted channels such as HTTPS and SFTP, ensuring that users are not forced to learn or install new tools.
+
+# Deployment
+Filet is built for modern Java Application Servers. Just drop the WAR in, and everything should be good to go.
+
+# Future Directions
+Interesting features that can be developed after initial release
+ - BitTorrent distribution: Use a private tracker to distribute to large groups
+ - Amazon S3 datastore: Use Amazon's infrastructure to handle storage, distribution, and authentication
+ - OpenID Authentication: External users should be able to authenticate with external means
+ - Desktop application: Simple tool for managing new uploads and distribution
