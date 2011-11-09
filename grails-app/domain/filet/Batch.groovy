@@ -4,10 +4,10 @@ class Batch {
     
     String subject
     String message
-    String sender
+    FiletUser sender
     Date expiration
     
-    static hasMany = [ recipients: String, contents: TransferrableBlob ]
+    static hasMany = [ recipients: FiletUser, contents: TransferrableBlob ]
     
     static constraints = {
         subject maxSize: 255, blank: false, nullable: false
