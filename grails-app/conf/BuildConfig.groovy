@@ -1,4 +1,4 @@
-grails.servlet.version = "2.5" // Change depending on target container compliance (2.5 or 3.0)
+grails.servlet.version = "3.0" // Change depending on target container compliance (2.5 or 3.0)
 grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
@@ -38,8 +38,9 @@ grails.project.dependency.resolution = {
 
     plugins {
         compile ":hibernate:$grailsVersion"
-        compile ":jquery:1.6.1.1"
-        compile ":resources:1.1.1"
+        compile ":jquery:1.7.1"
+        compile ":jquery-ui:1.8.15"
+        compile ":resources:1.1.6"
 
         build ":tomcat:$grailsVersion"
     }
